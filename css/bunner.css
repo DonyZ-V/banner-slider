@@ -1,0 +1,59 @@
+#bunner{
+    width:600px;
+    height:250px;
+    position:relative;
+    margin:50px auto;
+    overflow:hidden;
+    border:10px solid #ddd;
+}
+#bunner:hover{
+    border:10px solid #999;
+}
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#ul1,#u1{
+    position: absolute;
+    top:0;
+    left:0;
+    width:600px;
+    height:1000px;
+}
+#ul1 img,#u1 img{
+    width: 600px;
+}
+#u1 li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#ul1 li{
+    width:600px;
+    height:250px;
+}
+#ul2{
+    position:absolute;
+    opacity:0.7;
+    right:10px;
+    bottom:10px;
+    z-index: 500;
+}
+#ul2 li{
+    float:left;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    margin:3px;
+    text-align:center;
+    background-color:#ccc;
+    border:3px solid #fff;
+    color:#333;
+    cursor:pointer;
+}
+#ul2 li.cursor{
+    background-color:#f00;
+    border:3px solid #fff;
+    color:#fff;
+}
